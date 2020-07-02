@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: darkslategrey;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,16 +23,80 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.para {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: lowercase;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+a {
+  color:rosybrown;
+  text-decoration: double;
+}
+a.button6{
+  display: inline-flexbox;
+  padding:0.46em 1.6em;
+  border:0.1em solid white;
+  margin:0 0.2em 0.2em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:rosybrown;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  background-color: transparent;
+  text-align:center;
+  transition: all 0.15s;
+  text-transform: lowercase;
+}
+  a.button6:hover{
+  text-shadow: 0 0 2em rgba(255,255,255,1);
+  color:transparent;
+}
+@media all and (max-width:30em){
+   a.button6{
+    display:block;
+    margin:0.4em auto;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+input[type=text],input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid rosybrown;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: transparent;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+}
+input[type=submit] {
+  display: inline-flexbox;
+  padding:10px;
+  border:0.1em solid white;
+  margin:0 0.2em 0.2em 0;
+  border-radius:10px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  font-size: 18px;
+  color:rosybrown;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  background-color: transparent;
+  text-align:center;
+  transition: all 0.15s;
+  text-transform: lowercase;
+}
+input[type=submit]:hover {
+  text-shadow: 0 0 2em rgba(255,255,255,1);
+  color:transparent;
+}
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
 }
