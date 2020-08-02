@@ -27,6 +27,7 @@
   color: white;
   font-family: 'Courier New', Courier, monospace;
   text-transform: lowercase;
+  text-align: center;
 }
 a {
   color:rosybrown;
@@ -99,4 +100,48 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: transparent;
   padding: 20px;
+}
+ul {
+  border:0.1em solid white;
+  padding: 10px;
+  margin:0 0.2em 0.2em 0;
+  border-radius:10px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:rosybrown;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  background-color: transparent;
+  text-align:center;
+  transition: all 0.15s;
+  text-transform: lowercase;
+  display: inline;
+  float: left;
+}
+ul:hover {
+  text-shadow: 0 0 2em rgba(255,255,255,1);
+  color:transparent;
+}
+button {
+  display: inline-flexbox;
+  padding:10px;
+  border:0.1em solid white;
+  margin:0 0.2em 0.2em 0;
+  border-radius:10px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  font-size: 45px;
+  color:rosybrown;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  background-color: transparent;
+  text-align:center;
+  transition: all 0.15s;
+  text-transform: lowercase;
+}
+button:hover {
+  text-shadow: 0 0 2em rgba(255,255,255,1);
+  color:transparent;
 }

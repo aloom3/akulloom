@@ -5,19 +5,28 @@ function Home() {
     return (
         <div className = 'wrap'>
             <div className = 'inside'> 
-                <p className = 'para'> Hello! I am 
-                <Link to="/AboutMe" > Akul </Link>
+                <nav>
+                    <ul>
+                        <ul> 
+                            <Link to = "/homepage"> Home </Link>
+                        </ul>
+                        <ul>
+                            <Link to = "/AboutMe"> About me </Link>
+                        </ul>
+                        <ul>
+                            <Link to = "/Projects"> Projects </Link>
+                        </ul>
+                        <ul>
+                            <Link to = "/Contact"> Contact Me </Link>
+                        </ul>
+                        <ul>
+                            <a href = "https://github.com/aloom3"> Github </a>
+                        </ul>
+                    </ul>
+                </nav>
+                <p className = 'para'> Hello! I am Akul 
                 😀! 
-                <br></br>
-                I am a rising second year at the Georgia Institute of Technology🐝. <br></br>
-                At the institute I am majoring in Computer Science💻 <br></br>
-                with a concentration in <a href="https://www.cc.gatech.edu/intelligence">🤖Intelligence🤖</a> and
-                 <a href = "https://www.cc.gatech.edu/information-internetworks"> 🌌Info-Internetworks🌌</a> <br></br>
-                Along with my classes, <br></br> I am an 👨‍🏫 Undergraduate TA for Intro to Object Oriented Programming. <br></br>I will also be serving as a junior developer 
-                for <a href = "https://bitsofgood.org/"> Bits of Good </a> <br></br>a club that combines CS and Social Good. <br></br>
-                Finally, I am a part of a Cyber-Forensics Laboratory <br></br> focused on reverse engineering malware and viruses. 
-                 </p>
-                 <a href="https://www.linkedin.com/in/akul-loomba-3b487418a/" class ="button6">Linkedin</a>
+                </p>
             </div>
         </div>
 
