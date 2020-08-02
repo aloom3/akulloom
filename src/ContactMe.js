@@ -1,6 +1,12 @@
 import React from 'react';
 import './App.css';
-function ContactMe() {
+// function encode(data) {
+//     return Object.keys(data)
+//     .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+//     .join("&");
+// }
+export default class ContactMe extends React.Component {
+    render() {
     return (
         // <div>
         //     <p className='para'>
@@ -18,10 +24,12 @@ function ContactMe() {
         //     <input type="submit"value="Submit😀"/>
         //     </form>
         // </div>
-        <form name = "contact" methods = "POST" data-netlify="true">
-             <p className='para'>
+        //https://community.netlify.com/t/integrating-netlify-forms-with-create-react-app/8584/2
+        <div>
+            <p className='para'>
             Here's this awesome webform to reach out to me
             </p>
+        <form name = "contact" netlify netlify-honepot="bot-field">
             <p className = "para">
                 <label> Your Name: <input type = "text" name="name" /> </label>
             </p>
@@ -35,7 +43,7 @@ function ContactMe() {
                 <button type = "submit"> Submit </button>
             </p>
         </form>
+        </div>
     );
+    }
 }
-
-export default ContactMe;

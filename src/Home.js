@@ -16,9 +16,9 @@ function Home() {
                         <ul>
                             <Link to = "/Projects"> Projects </Link>
                         </ul>
-                        <ul>
+                        {/* <ul>
                             <Link to = "/Contact"> Contact Me </Link>
-                        </ul>
+                        </ul> */}
                         <ul>
                             <a href = "https://github.com/aloom3"> Github </a>
                         </ul>
