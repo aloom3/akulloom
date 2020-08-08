@@ -13,7 +13,7 @@ function RC() {
 
             </p>
             <p className = "para">
-            <a href = "/projectshomepage" class = "button6"> Back to the Projects😀 </a>                <a href = "/" class = "button6"> Go home! </a>
+            <Link to = "/projectshomepage" class = "button6"> Back to the Projects😀 </Link>                <a href = "/" class = "button6"> Go home! </a>
             </p>
         </div>
     )

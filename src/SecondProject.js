@@ -16,7 +16,7 @@ function SecondProject() {
                 summer project. 
             </p>
             <p className = "para">
-                <a href = "/projectshomepage" class = "button6"> Back to the Projects😀 </a>
+                <Link to = "/projectshomepage" class = "button6"> Back to the Projects😀 </Link>
                 <a href = "/" class = "button6"> Square One😀 </a>
             </p>
         </div>
