@@ -18,7 +18,6 @@ function Projects() {
                 Though I could've built a static website using really any framerwork <br/>
                 I wanted to really flex my knowledge of <a href="https://reactjs.org/"> React </a>
                 <br/>
-                Go on to my next <Link to = "/SecondProject"> project </Link>
             </p>
             <p className = "para">
                     <a href = "/" class = "button6"> Return to the beginning 😀 </a>
