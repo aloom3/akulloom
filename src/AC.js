@@ -13,7 +13,7 @@ function AC() {
                 google play store <br/>
             </p>
             <p className = "para">
-            <a href = "/ProjectsHomepage" class = "button6"> Back to the Projects😀 </a>                <a href = "/" class = "button6"> Go home! </a>
+            <a href = "/projectshomepage" class = "button6"> Back to the Projects😀 </a>                <a href = "/" class = "button6"> Go home! </a>
             </p>
         </div>
     )

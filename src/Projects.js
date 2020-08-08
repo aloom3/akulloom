@@ -21,7 +21,7 @@ function Projects() {
             </p>
             <p className = "para">
                     <a href = "/" class = "button6"> Return to the beginning 😀 </a>
-                    <a href = "/ProjectsHomepage" class = "button6"> Back to the Projects😀 </a>
+                    <a href = "/projectshomepage" class = "button6"> Back to the Projects😀 </a>
             </p>
         </div>
     );
