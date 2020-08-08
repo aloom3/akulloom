@@ -6,6 +6,9 @@ import Projects from './Projects';
 import Project2 from './SecondProject';
 import Contact from './ContactMe';
 import HP from './homepage';
+import PH from './ProjectsHomepage';
+import AC from './AC'
+import RC from './RC'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 class App extends React.Component {
@@ -26,6 +29,12 @@ class App extends React.Component {
         <Route exact path = "/">
           <Home/>
         </Route>
+        <Route path = "/AC">
+          <AC/>
+        </Route>
+        <Route path = "/RC">
+          <RC/>
+        </Route>
         <Route path = "/AboutMe">
           <AboutMe/> 
         </Route>
@@ -40,6 +49,9 @@ class App extends React.Component {
         </Route>
         <Route path = "/Contact">
           <Contact/>
+        </Route>
+        <Route path = "/projectshomepage">
+          <PH/>
         </Route>
       </header>
     </div>

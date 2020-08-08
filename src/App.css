@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: darkslategrey;
+  /* background-color: darkslategrey; */
+ background-color:#0f4c75;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,7 +31,8 @@
   text-align: center;
 }
 a {
-  color:rosybrown;
+  /* color:rosybrown; */
+  color: tan;
   text-decoration: double;
 }
 a.button6{
@@ -43,7 +45,8 @@ a.button6{
   text-decoration:none;
   font-family:'Roboto',sans-serif;
   font-weight:300;
-  color:rosybrown;
+  color: tan;
+  /* color:rosybrown; */
   text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
   background-color: transparent;
   text-align:center;
@@ -110,7 +113,8 @@ ul {
   text-decoration:none;
   font-family:'Roboto',sans-serif;
   font-weight:300;
-  color:rosybrown;
+  /* color:rosybrown; */
+  color: tan;
   text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
   background-color: transparent;
   text-align:center;
@@ -134,7 +138,8 @@ button {
   font-family:'Roboto',sans-serif;
   font-weight:300;
   font-size: 45px;
-  color:rosybrown;
+  /* color:rosybrown; */
+  color: tan;
   text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
   background-color: transparent;
   text-align:center;

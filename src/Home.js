@@ -14,7 +14,7 @@ function Home() {
                             <Link to = "/AboutMe"> About me </Link>
                         </ul>
                         <ul>
-                            <Link to = "/Projects"> Projects </Link>
+                            <Link to = "/projectshomepage"> Projects </Link>
                         </ul>
                         {/* <ul>
                             <Link to = "/Contact"> Contact Me </Link>
